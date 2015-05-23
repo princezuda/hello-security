@@ -1,7 +1,7 @@
-=== Hello Security ===
-Contributors: Michele Butcher
-Donate link: http://cantspeakgeek.com
-Tags: security, security best practice, hello
+=== Goodbye Security ===
+Contributors:Ryan Satterfield
+
+Tags: security, security plugin, security issues, goodbye security, 
 Requires at least: 3.0
 Stable tag: 1.0.0
 Tested up to: 4.2.2
