@@ -1,13 +1,13 @@
 <?php
 /**
- * @package Hello_Security
+ * @package Goodbye security is a fork of  Hello_Security
  * @version 1.0.0
  */
 /*
-Plugin Name: Hello Security
-Plugin URI: http://cantspeakgeek.com/hello-security/
-Description: Built using the base code of the popular plugin, Hello Dolly, this plugin gives
-users the ability to get security best practice tips shown on their admin panel.
+Plugin Name: Goodbye Security
+Plugin URI: http://planetzuda.com
+Description: Built using the base code of Hello Security, this plugin gives
+users the ability to understand everything can be cracked, so goodbye security. This will not damage your site.
 Version: 1.0
 Author: Michele Butcher
 Author URI: http://cantspeakgeek.com/
@@ -16,34 +16,19 @@ License: GPLv2
 
 function hello_security_get_quote() {
 	/** These are the quotes used */
-	$quotes = "Be WP Secuure
-	PASSWORD is never a good password.
-	Make your admin username unique.
-	Change your password often.
-	Use complex passwords.
-	Use a contact form instead of having your email address on your site.
-	Never call a WordPress user admin.
-	Only keep the plugins you NEED.
-	Use a different password for every account.
-	Update all the things!
-	Backup, backup, backup!
-	Choose your themes and plugins wisely.
-	Never share logins. Let them get their own.
-	Do your research before you buy.
-	Delete out old unused user accounts.
-	Pay attention! You know your site the best.
-	The harder the password is to remember, the harder it is to crack.
-	Themes are for design. Plugins are for functionality.
-	Todays features are tomorrow's vulnerabilities.
-	Schedule reoccuring backups.
-	Security is important before the hackers get in.
-	Keep only one theme and the current WordPress theme for a default.
-	An unisntalled theme or plugin has no vulnerabilities.
-	Have you changed your password recently?
-	Check your file persmissions.
-	Always use SFTP if available.
-	Only give users access they need.
-	Backup all the things.";
+	$quotes = "Install WordPress, goodbye security
+	Install a plugin, goodbye security.
+	Use premium code, goodbye security.
+	Use free code, goodbye security.
+	Hello XSS,Sql injections,RCE,CSRF, SOME, goodbye security.
+	Use a contact form that doesn't filter posted data, goodbye security. 
+	Use javascript, goodbye security. 
+	Use htmlspecialchars, goodbye security.
+	Don't do SQL properly, goodbye database.
+	 $_get system(), hello RCE. 
+	Hack all the things!
+	Hack the planet!
+	Hack everything.";
 
 		// Here we split it into lines
 	$quotes = explode( "\n", $quotes );
