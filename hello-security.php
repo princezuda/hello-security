@@ -5,12 +5,12 @@
  */
 /*
 Plugin Name: Goodbye Security
-Plugin URI: http://planetzuda.com
+Plugin URI: https://planetzuda.com
 Description: Built using the base code of Hello Security, this plugin gives
 users the ability to understand everything can be cracked, so goodbye security. This will not damage your site.
 Version: 1.0
 Author: Michele Butcher
-Author URI: http://cantspeakgeek.com/
+Author URI: https://planetzuda.com
 License: GPLv2
 */
 
