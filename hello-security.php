@@ -14,7 +14,7 @@ Author URI: https://planetzuda.com
 License: GPLv2
 */
 
-function hello_security_get_quote() {
+function goodbye_security_get_quote() {
 	/** These are the quotes used */
 	$quotes = "Install WordPress, goodbye security
 	Install a plugin, goodbye security.
@@ -38,13 +38,13 @@ function hello_security_get_quote() {
 }
 
 // This just echoes the chosen line, we'll position it later
-function hello_security() {
-	$chosen = hello_security_get_quote();
+function goodbye_security() {
+	$chosen = goodbye_security_get_quote();
 	echo "<p id='security'>$chosen</p>";
 }
 
 // Now we set that function up to execute when the admin_notices action is called
-add_action( 'admin_notices', 'hello_security' );
+add_action( 'admin_notices', 'goodbye_security' );
 
 // We need some CSS to position the paragraph
 function security_css() {
