@@ -9,7 +9,7 @@ Plugin URI: https://planetzuda.com
 Description: Built using the base code of Hello Security, this plugin gives
 users the ability to understand everything can be cracked, so goodbye security. This will not damage your site.
 Version: 1.0
-Author: Michele Butcher
+Author: Ryan Satterfield
 Author URI: https://planetzuda.com
 License: GPLv2
 */
