@@ -36,7 +36,7 @@ function goodbye_security_get_quote() {
 	 Criminals test their malware  against anti-virus systems to make sure they bypass detection.
 	 Don't trust your anti-virus program.
 	What can you trust? The fact that Samuel Lee Jackson swears in movies.
-	  Best practices and security aren't the same thing. 
+	  Best practices and testing security aren't the same thing. 
 	   It's a best practice not to kiss a rattle snake, just like it's best not to have password as your password.
 	    ";
            
