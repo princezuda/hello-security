@@ -16,7 +16,7 @@ License: GPLv2
 
 function goodbye_security_get_quote() {
 	/** These are the quotes used */
-	$quotes = "Install WordPress, goodbye security
+	$quotes = "Install WordPress, goodbye security.
 	Install a plugin, goodbye security.
 	Use premium code, goodbye security.
 	Use free code, goodbye security.
@@ -25,11 +25,21 @@ function goodbye_security_get_quote() {
 	Use javascript, goodbye security. 
 	Use htmlspecialchars, goodbye security.
 	Don't do SQL properly, goodbye database.
-	 $_get system(), hello RCE. 
-	Hack all the things!
-	Hack the planet!
-	Hack everything.";
-
+	 put an unescaped $_get in exec(), hello RCE.
+	 Didn't use a nonce in an admin form? Say Hello to CSRF!
+	 If you don't use wp_verify_nonce say hello to CSRF!
+	 Didn't use sanitation in the admin, because you thought only admins could access it? Hello CSRF to stored XSS.
+	 Get an internet connection, goodbye security.
+	 Have an air-gapped computer with an all-in one printer, goodbye security.
+	 Load images in your browser without checking each one for embedded malicious code? Goodbye security.
+	 Did you get a nulled theme or plugin? Goodbye security and hello malware.
+	 Criminals test their malware  against anti-virus systems to make sure they bypass detection.
+	 Don't trust your anti-virus program.
+	What can you trust? The fact that Samuel Lee Jackson swears in movies.
+	  Best practices and security aren't exactly the same thing. 
+	   It's a best practice not to kiss a rattle snake, just like it's best not to have password as your password.
+	    ";
+           
 		// Here we split it into lines
 	$quotes = explode( "\n", $quotes );
 
